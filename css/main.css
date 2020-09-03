@@ -9,3 +9,16 @@
 .image-link{
   text-decoration: none;
 }
+.table-data{
+  padding: 10px;
+}
+.heading-centre{
+  text-align: center;
+  margin: 0 0 80px;
+}
+.block-centre{
+  width: 500px;
+  margin: 20px auto;
+  padding: 50px;
+  background-color: #a5a5a5;
+}

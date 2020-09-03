@@ -3,9 +3,16 @@
   <head>
     <title>HTML Tags</title>
     <meta charset="utf-8">
-
   </head>
+
   <body>
+    <header>
+      <div style="text-align: right;">
+        <a href="index.html" style="padding: 5px 15px; background-color: #ccf;">HOME</a>
+        <a href="tags.html" style="padding: 5px 15px; background-color: #ccf;">TAGS</a>
+        <a href="moby_dick.html" style="padding: 5px 15px; background-color: #ccf;">BOOK REVIEW</a>
+      </div>
+      
       <h1>Important HTML tags</h1>
       <a href="https://flic.kr/p/6P5r5E" target="_blank" rel="noopener">
         <img src="images/storm_trooper_tagged.jpg" alt="Tagged Storm Trooper">
@@ -22,6 +29,9 @@
         The tables below don't include all HTML tags, but they do list many of
         the most important ones.
       </p>
+    </header>
+
+    <div>
 
       <h2>Block Elements</h2>
       <table>
@@ -31,12 +41,12 @@
           <th>Purpose</th>
         </tr>
         <tr>
-          <td><code>p</code></td>
+          <td style="padding: 10px"><code>p</code></td>
           <td>Paragraph</td>
           <td>Format text as a stand alone paragraph.</td>
         </tr>
         <tr>
-          <td><code>h1&ndash;h6</code></td>
+          <td style="padding: 10px"><code>h1&ndash;h6</code></td>
           <td>Headings 1 to 6</td>
           <td>Format text as header with increasing font size and emphasis the lower the number.</td>
         </tr>
@@ -59,6 +69,31 @@
           <td><code>td</code></td>
           <td>Table data</td>
           <td>Format the enclosed text as a cell in the table (not strictly a block element).</td>
+        </tr>
+        <tr>
+          <td><code>header</code></td>
+          <td>Header</td>
+          <td>Labels a block section of the document, no direct formatting effect.</td>
+        </tr>
+        <tr>
+          <td><code>div</code></td>
+          <td>Division</td>
+          <td>Labels a block section of the document, no direct formatting effect.</td>
+        </tr>
+        <tr>
+          <td><code>ol</code></td>
+          <td>Ordered list</td>
+          <td>Format the enclosed text as an ordered list.</td>
+        </tr>
+        <tr>
+          <td><code>ul</code></td>
+          <td>Unordered list</td>
+          <td>Format the enclosed text as an unordered list</td>
+        </tr>
+        <tr>
+          <td><code>li</code></td>
+          <td>List item</td>
+          <td>Identify the enclosed text as a separate list item for either <code>ol</code> or <code>ul</code></td>.
         </tr>
       </table>
       <h2>Inline Elements</h2>
@@ -105,6 +140,14 @@
           <td>&lt;code&gt;Code listing&lt;/code&gt;</td>
           <td><code>Code listing</code></td>
         </tr>
+        <tr>
+          <td><code>span</code></td>
+          <td>Span</td>
+          <td>Span labels an inline section of text, but has no immediate formatting effect.</td>
+          <td><code>&lt;span&gt;In line text&lt;/span&gt;</code></td>
+          <td><span>In line text</span></td>
+        </tr>
       </table>
+    </div>
   </body>
 </html>
